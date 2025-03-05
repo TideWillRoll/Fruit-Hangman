@@ -1,4 +1,4 @@
-#Python program for Hangman with fruit
+#Python program for Hangman with fruit names
 import random
 from collections import Counter
 
