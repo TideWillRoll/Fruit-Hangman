@@ -2,7 +2,10 @@
 import random
 from collections import Counter
 
-someWords = ["apple", "apricot", "banana", "berry", "cherry", "coconut", "grape", "lemon", "lychee", "mango", "muskmelon", "orange", "papaya", "peach", "pineapple","strawberry", "watermelon"]
+someWords = ["apple", "apricot", "banana", "berry", "cherry", 
+             "coconut", "grape", "lemon", "lychee", "mango", 
+             "muskmelon", "orange", "papaya", "peach", 
+             "pineapple","strawberry", "watermelon"]
 
 #randomly chooses a secret word from "someWords".
 word = random.choice(someWords)
