@@ -2,16 +2,15 @@
 import random
 from collections import Counter
 
-someWords = '"apple" "apricot" "banana" "berry" "cherry" "coconut" "grape" "lemon" "lychee" "mango" "muskmelon" "orange" "papaya" "peach" "pineapple" "strawberry" "watermelon"'
+someWords = ["apple", "apricot", "banana", "berry", "cherry", "coconut", "grape", "lemon", "lychee", "mango", "muskmelon", "orange", "papaya", "peach", "pineapple","strawberry", "watermelon"]
 
-someWords = someWords.split(' ')
 #randomly chooses a secret word from "someWords".
 word = random.choice(someWords)
 
 if __name__=='__main__':
     print("Guess the word! Hint: word is a name of a fruit")
     for i in word:
-        print('_', end='')
+        print('_', end=' ')
         #For printing the empty spaces for letters of the word
     print()
     
